@@ -1,6 +1,6 @@
 .header-bg {
     background-image:url(../img/Group\ 72.png);
-    background-position: cover;
+    
     background-repeat: no-repeat;
     margin: 0 auto;
     max-width: 1366px;
@@ -174,7 +174,6 @@
 /* sextion-2 start */
 .section-2 {
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/111.png);
-    background-position: cover;
     background-repeat: no-repeat;
     margin: 0 auto;
     display: flex;
@@ -355,9 +354,6 @@ span {
     padding-inline: 5px ;
     color: #121212;
   }
-  .input:ist(:focus, :valid) {
-    outline-color: #d1c5fc;
-  }
   .Send-btn {
   max-width: 352px;
   width: 100%;
@@ -397,12 +393,16 @@ span {
 }
 .mini-box h2 {
     font-size: 18px;
-    color: ##000000;
+    color: #000000;
     font-family: 'Poppins', sans-serif;
 }
 button {
     color: #fff;
     font-family: 'Poppins', sans-serif;
+}
+.radio {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 
