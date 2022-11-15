@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .header-bg {
     background-image:url(../img/Group\ 72.png);
     
@@ -13,8 +20,12 @@
     width:80%;
     margin: 0 auto;
     padding-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .header-nav h2 {
     font-size: 14px;
@@ -22,26 +33,40 @@
 }
 .logo1 {
     font-family: 'Poppins', sans-serif;
+    -webkit-transition: 1s ease;
+    -o-transition: 1s ease;
     transition: 1s ease;
 }
 .logo1:hover {
     font-size: 22px;
     color: #DC4E41;
-    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
     transform: scale(1.2);
     transform: scale(1.2);
 }
 .ul-iteam {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .ul-iteam li {
     color:#DC4E41;
+    -webkit-transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    -o-transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
     transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .ul-iteam li:hover{
-      transform: scale(1.5);
+      -webkit-transform: scale(1.5);
+          -ms-transform: scale(1.5);
+              transform: scale(1.5);
       text-shadow: none;
 }
 .ul-iteam  a {
@@ -66,25 +91,46 @@
     max-width: 215px;
     width: 100%;
     height: 117px;
-    transform: translate(105px, 96px);
+    -webkit-transform: translate(105px, 96px);
+        -ms-transform: translate(105px, 96px);
+            transform: translate(105px, 96px);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center;
-    flex-direction: column; 
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; 
 }
 .about-box ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-top: 14px;
 }
 .about-box h3 {
     font-family: 'Poppins', sans-serif;
 }
 .about-box ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center; 
     margin-right: 14.5px;
 }
@@ -110,16 +156,26 @@
 }
 .main-box{
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 0 auto
 }
  .text-box {
     max-width: 444px;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .text-box h2 {
     font-size: 14px;
@@ -145,6 +201,8 @@
     font-size: 14px;
     text-align: center;
     background: #5863F8;
+    -webkit-transition: 1s ease ;
+    -o-transition: 1s ease ;
     transition: 1s ease ;
 }
 .read-more a {
@@ -152,7 +210,9 @@
 }
 .read-more:hover {
     color: #ffff;
-    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
     transform: scale(1.2);
     transform: scale(1.2);
 }
@@ -161,8 +221,12 @@
     width: 100%; 
 }
 .two-img-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-bottom: 16px;
 }
 .one-img-box {
@@ -173,11 +237,17 @@
 
 /* sextion-2 start */
 .section-2 {
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0,0,0,0.5)),to(rgba(0,0,0,0.5))), url(../img/111.png);
+    background-image: -o-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/111.png);
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/111.png);
     background-repeat: no-repeat;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     max-width: 1366px;
     width: 100%;
 }
@@ -197,18 +267,33 @@ span {
     max-width: 1088px;
     width: 100%;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .mini-bloks {
     width: 23%;
     height: 260px;
     background: #ffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .mini-bloks h4 {
     font-family: 'Poppins', sans-serif;
@@ -228,9 +313,15 @@ span {
     height: 58px;
     background-color: #5863F8;
     border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-bottom: 15px;
     color: #ffff; 
 }
@@ -241,17 +332,32 @@ span {
     max-width: 1366px;
     width: 100%;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .big-size {
     max-width: 783px;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .big-size p {
     max-width: 352px;
@@ -278,9 +384,15 @@ span {
     max-width: 225px;
     width: 100%;
     height: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center;
     padding: 30px 0 20px 0;
 }
@@ -322,8 +434,38 @@ span {
 .box-in-box {
     width: 100%;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.radio {
+    position: absolute;
+}
+.radio input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 50px;
+    width: 1.3vw;
+    height: 1.3vw;
+    -webkit-box-shadow: 0px 0px 5px #aac5c6;
+            box-shadow: 0px 0px 5px #aac5c6;
+    background-color: #344056;
+    -webkit-transition: 0.2s all linear;
+    -o-transition: 0.2s all linear;
+    transition: 0.2s all linear;
+    position: relative;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.radio input:checked {
+    border: 0.4vw solid #344056;
+    background-color: rgba(2,228,231, 0.8) ;
 }
 .input-group {
     position: relative;
@@ -345,12 +487,20 @@ span {
     top: 0;
     left: 0;
     color: #CECECE;
-    transform: translate(25px, 10px);
+    -webkit-transform: translate(25px, 10px);
+        -ms-transform: translate(25px, 10px);
+            transform: translate(25px, 10px);
+    -webkit-transition: -webkit-transform .25s;
+    transition: -webkit-transform .25s;
+    -o-transition: transform .25s;
     transition: transform .25s;
+    transition: transform .25s, -webkit-transform .25s;
   }
   .input:focus+.input-label,
   .input:valid+.input-label {
-    transform: translate( 25px, -18px)scale(.8) ;
+    -webkit-transform: translate( 25px, -18px)scale(.8) ;
+        -ms-transform: translate( 25px, -18px)scale(.8) ;
+            transform: translate( 25px, -18px)scale(.8) ;
     padding-inline: 5px ;
     color: #121212;
   }
@@ -361,11 +511,19 @@ span {
   cursor: pointer;
   background: #5863F8;
   font-size: 14px;
-  transition: all 0.3s ease;
-  margin-top: 10px;
+  -webkit-transition: all 0.35s ease;
+  -o-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  margin-top: 32px;
+  border: none;
+  border-radius: 4px;
   }
   .Send-btn:hover {
-    transform: scale(1.045);
+    -webkit-transform: scale(1.045);
+        -ms-transform: scale(1.045);
+            transform: scale(1.045);
+    -webkit-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
     transition: 0.3s ease-in;
     cursor: pointer;
   }
@@ -378,15 +536,27 @@ span {
   .contact-forms {
     max-width: 1088px;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     margin-bottom: 90px;
   }
   .mini-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;            
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;            
   }
 .mini-box a {
     color: #B1B1B1;
@@ -401,12 +571,13 @@ button {
     font-family: 'Poppins', sans-serif;
 }
 .radio {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-evenly;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
 }
-
-
-
 /* sect 4 start */
 .section-4 {
     max-width: 1366px;
@@ -418,7 +589,10 @@ button {
     width: 100%;
     height: 140px;
     padding-left: 139px;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .text-box-4 h2 {
     font-family: 'Poppins', sans-serif;
@@ -432,9 +606,15 @@ button {
 .img-box1 {
     max-width: 1366px;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .img-box1 div {
     max-width: 352px;
@@ -450,23 +630,37 @@ button {
     height: 395px;
     background: #121212;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 .footer-info {
     max-width: 1030px;
     width: 80%;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     color:#fff;
 }
 .footer-info :nth-child(1){
     max-width: 260px;
     width: 100%;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .footer-info :nth-child(2) a{
     color: #5863F8;
@@ -477,9 +671,15 @@ button {
 .footer-info :nth-child(4){
     max-width: 225px;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
+
 .copy {
     margin: 0 auto;
     max-width: 559px;
@@ -495,8 +695,9 @@ button {
     max-width: 260px;
     width: 100%;
     font-size: 35px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    
 }
 .icon span {
     color: #3B5998;
@@ -524,5 +725,4 @@ button {
     font-family: 'Poppins', sans-serif;
     margin-bottom: 20px;
 }
-
 
