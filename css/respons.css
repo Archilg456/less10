@@ -135,6 +135,7 @@
         padding-left: 0;
  }
  }
+
  @media  (max-width: 671px) {
     .big-size {
         width: 95%;
