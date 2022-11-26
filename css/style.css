@@ -724,4 +724,9 @@ button {
     font-family: 'Poppins', sans-serif;
     margin-bottom: 20px;
 }
+.icon__text  a {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
 
